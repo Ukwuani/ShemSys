@@ -59,6 +59,15 @@
         android:text="Motion Detected"
         />
 
+    <Switch
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp"
+        android:id="@+id/connectionStatus"
+        android:layout_width="wrap_content"
+        android:switchPadding="8dp"
+        android:layout_height="wrap_content"
+        android:text="Connected" />
+
 
 
 </RelativeLayout>
